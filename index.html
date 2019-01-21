@@ -19,7 +19,7 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand ml-5 font-weight-bold" href="#"><h3>Will Rackley</h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,13 +28,13 @@
         <div class="collapse navbar-collapse mr-5" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><h5>Portfolio</h5></a>
+                    <a class="nav-link text-light" href="#">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><h5>About</h5></a>
+                    <a class="nav-link text-light" href="#">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><h5>Contact</h5></a>
+                    <a class="nav-link text-light" href="#">CONCTACT</a>
                 </li>
             </ul>
         </div>
@@ -44,8 +44,47 @@
     <div class="jumbotron jumbotron-fluid">
        <img class="img-fluid" id="jbImg" src="assets/images/codingComputer.jpg" alt="picture of laptop">
         <div class="jbText">
-            <h1 class="display-4 text-light">WELCOME</h1>
+            <h1 class="display-1 text-light">WELCOME</h1>
         </div>
+    </div>
+
+    <!--Portfolio Section-->
+    <div class="container p-3" id="portContainer">
+        <h2 class="text-center text-dark">PORTFOLIO</h2>
+        <p class="text-center text-dark mb-5"><small >Examples of my Projects</small></p>
+        <div class="card-deck text-center mb-3">
+                <div class="card">
+                    <a href="https://willrackley.github.io/Project-One/" target="_blank"><img src="assets/images/CWC.png" class="card-img-top" alt="picture of project one website"></a> 
+                  <div class="card-body">
+                    <h5 class="card-title">Complete Wellness Coach</h5>
+                    <a href="https://github.com/willrackley/Project-One.git" class="text-decoration-none text-reset" target="_blank"><p class="card-text"><small >GitHub Repo Code</small></p>
+                  </div></a>
+                </div>
+                <div class="card">
+                    <a href="https://willrackley.github.io/Word-Guess-Game/" target="_blank"><img src="assets/images/wordGuess.png" class="card-img-top" alt="picture of word guess game website"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Word Guess Game</h5>
+                    <a href="https://github.com/willrackley/Word-Guess-Game.git" class="text-decoration-none text-reset" target="_blank"><p class="card-text"><small>GitHub Repo Code</small></p></a>
+                  </div>
+                </div>
+        </div>
+        <div class="card-deck text-center">
+                <div class="card">
+                    <a href="https://willrackley.github.io/Train-Scheduler/" target="_blank"><img src="assets/images/train.png" class="card-img-top" alt="picture of train scheduler website"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Train Scheduler</h5>
+                    <a href="https://github.com/willrackley/Train-Scheduler.git" class="text-decoration-none text-reset" target="_blank"><p class="card-text"><small>GitHub Repo Code</small></p></a>
+                  </div>
+                </div>
+                <div class="card">
+                    <a href="https://willrackley.github.io/TriviaGame/" target="_blank"><img src="assets/images/trivia.png" class="card-img-top" alt="picture of trivia game website"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Trivia Game</h5>                      
+                        <a href="https://github.com/willrackley/TriviaGame.git" class="text-decoration-none text-reset" target="_blank"><p class="card-text"><small>GitHub Repo Code</small></p></a>
+                    </div>
+                </div>
+        </div>
+              
     </div>
 
     <!--Jquery & Bootstrap JS-->
