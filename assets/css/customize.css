@@ -16,7 +16,7 @@ nav h3{
 #jbImg{
     margin-top: -65px;
     margin-bottom: -65px;
-    filter: brightness(65%);
+    filter: brightness(55%);
 }
 
 .jumbotron{
@@ -36,6 +36,7 @@ nav h3{
 
 #portContainer{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .card:hover{
@@ -50,6 +51,15 @@ nav h3{
 .card small:hover{
     font-size: 16px;
 }
+
+#aboutContainer{
+    margin-top: 100px;
+}
+
+#aboutHeader{
+    padding-top: 100px;
+}
+
 
 
 /*============= Media Queries=================*/
