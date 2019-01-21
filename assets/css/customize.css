@@ -1,3 +1,29 @@
 .navbar-brand{
     font-family: 'Major Mono Display', monospace;
 }
+
+#jbImg{
+    margin-top: -65px;
+    margin-bottom: -65px;
+    filter: brightness(75%);
+}
+
+.jumbotron{
+    position: relative;
+}
+
+.jbText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*============= Media Queries=================*/
+
+@media screen and (max-width: 425px){
+    
+    #jbImg{
+        margin-top: -32px;
+    }
+}
