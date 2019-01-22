@@ -2,22 +2,33 @@ html {
     scroll-behavior: smooth;
 }
 
-nav{ 
+/*=======NAV========*/
+
+nav { 
     background: #0a0a0a;
     border-bottom: 3px solid #E8A87C; 
 }
 
-nav h3{
-    color: #E8A87C; 
-   
+nav h3 {
+    color: #E8A87C;   
 }
-.navbar-brand{
+.navbar-brand {
     font-family: 'Major Mono Display', monospace;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     color: #E8A87C !important; 
 }
+
+.fa-bars {
+    color: #ffffff;
+    background: #E8A87C; 
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+/*=======JumboTron========*/
 
 #jbImg{
     margin-top: -65px;
@@ -27,6 +38,7 @@ nav h3{
 
 .jumbotron{
     position: relative;
+    overflow: hidden;
 }
 
 .jumbotron {
@@ -53,79 +65,85 @@ nav h3{
     color: #ffffff;
 }
 
-#portContainer{
+/*=======Portfolio Section========*/
+
+#portContainer {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-#portContainer h2{
+#portContainer h2 {
     font-weight: bold;
     font-family: 'Major Mono Display', monospace;
 }
 
-#portSubHeading{
+#portSubHeading {
     font-family: 'Satisfy', cursive;
     font-weight: bold;
     font-size: 30px;
     letter-spacing: 1.2px;
 }
 
-.card:hover{
+.card:hover {
     background: #E8A87C; 
     filter: drop-shadow(8px 8px 10px rgb(160, 159, 159));
 }
 
-.card img:hover{
+.card img:hover {
     filter: sepia(40%);
 }
 
-.card small:hover{
+.card small:hover {
     font-size: 16px;
 }
 
-#aboutContainer{
+/*=======About Section========*/
+
+#aboutContainer {
     margin-top: 100px;
 }
 
-#aboutContainer p{
+#aboutContainer p {
     font-size: 20px;
 }
 
-#aboutContainer small{
+#aboutContainer small {
     font-family: 'Satisfy', cursive;
     font-weight: bold;
     font-size: 30px;
     letter-spacing: 1.2px;
 }
 
-#aboutHeader{
+#aboutHeader {
     font-family: 'Major Mono Display', monospace;
     font-weight: bold;
     padding-top: 100px;
 }
+
+/*=======Footer and Contact Section========*/
 
 #footer {
     background: #0a0a0a;
     border-top: 3px solid #E8A87C;
 }
 
-#footer p{
+#footer p {
     font-size: 14px;
 }
 
-.fas{
+.fas {
     font-size: 24px;
 }
 
-.far{
+.far {
     font-size: 24px;
 }
 
-.fab{
+.fab { 
     font-size: 30px; 
 }
 
-.socialLinks a:hover{
+.socialLinks a:hover {
     color: #ffffff !important;
 }
 
@@ -136,8 +154,38 @@ nav h3{
 /*============= Media Queries=================*/
 
 @media screen and (max-width: 425px){
+
+    .navbar-brand h3{
+        font-size: 24px;
+    }
     
-    #jbImg{
+    .fa-bars {
+        margin-right: -20px;
+    }
+
+    #jbImg { 
         margin-top: -32px;
+        min-width: 950px;
+        height: auto;
+    }
+
+    .jumbotron p {
+        font-size: 30px;
+    }
+
+    .badge {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .jbText{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .jbText a:hover{
+        font-size: 16px;
     }
 }
