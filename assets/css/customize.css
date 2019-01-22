@@ -41,9 +41,33 @@ nav h3{
     transform: translate(-50%, -50%);
 }
 
+.badge{
+    font-family: 'Major Mono Display', monospace;
+    background: #E8A87C;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.jbText a:hover{
+    font-size: 32px;
+    color: #ffffff;
+}
+
 #portContainer{
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+#portContainer h2{
+    font-weight: bold;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#portSubHeading{
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1.2px;
 }
 
 .card:hover{
@@ -66,7 +90,17 @@ nav h3{
 #aboutContainer p{
     font-size: 20px;
 }
+
+#aboutContainer small{
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+}
+
 #aboutHeader{
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
     padding-top: 100px;
 }
 
