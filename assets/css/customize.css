@@ -54,7 +54,7 @@ nav h3 {
 }
 
 .badge{
-    font-family: 'Major Mono Display', monospace;
+    font-family: Arial, Helvetica, sans-serif;
     background: #E8A87C;
     color: #ffffff;
     font-size: 30px;
@@ -68,19 +68,22 @@ nav h3 {
 /*=======Portfolio Section========*/
 
 #portContainer {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
 #portContainer h2 {
     font-weight: bold;
-    font-family: 'Major Mono Display', monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+#secondCard {
+    margin-top: 60px;
+}
 #portSubHeading {
     font-family: 'Satisfy', cursive;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 1.2px;
 }
 
@@ -100,7 +103,8 @@ nav h3 {
 /*=======About Section========*/
 
 #aboutContainer {
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 #aboutContainer p {
@@ -110,12 +114,12 @@ nav h3 {
 #aboutContainer small {
     font-family: 'Satisfy', cursive;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 1.2px;
 }
 
 #aboutHeader {
-    font-family: 'Major Mono Display', monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding-top: 100px;
 }
