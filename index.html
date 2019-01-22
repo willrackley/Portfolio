@@ -13,6 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <!--Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Will Rackley</title>
 </head>
 
@@ -20,7 +23,7 @@
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand ml-5 font-weight-bold" href="#"><h3>Will Rackley</h3></a>
+        <a class="navbar-brand ml-5 font-weight-bold pt-2" href="#"><h3>Will racKley</h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,15 +46,15 @@
     <!--Jumbotron-->
     <div class="jumbotron jumbotron-fluid">
        <img class="img-fluid" id="jbImg" src="assets/images/codingComputer.jpg" alt="picture of laptop">
-        <div class="jbText">
-            <h1 class="display-1 text-light">WELCOME</h1>
+        <div class="jbText container-fluid">
+            <p class="display-3 text-light text-center">Welcome to my portfolio!</p>
         </div>
     </div>
 
     <!--Portfolio Section-->
     <div class="container p-3" id="portContainer" target="portfolioSection">
         <h2 class="text-center text-dark">PORTFOLIO</h2>
-        <p class="text-center text-dark mb-5"><small >Examples of my Projects</small></p>
+        <p class="text-center text-dark mb-5"><small >A few examples of my work.</small></p>
         <div class="card-deck text-center mb-3">
             <div class="card">
                 <a href="https://willrackley.github.io/Project-One/" target="_blank"><img src="assets/images/CWC.png" class="card-img-top" alt="picture of project one website"></a> 
@@ -89,23 +92,33 @@
     <!--About Section-->
     <div class="container-fluid bg-light" id="aboutContainer">
         <h2 class="text-center text-dark" id="aboutHeader">ABOUT ME</h2>
-        <p class="text-center text-dark mb-5"><small >Add text here</small></p>
+        <p class="text-center text-dark mb-5"><small >A passion for technology and innovation</small></p>
         <div class="container pb-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac rutrum lorem. Ut et diam ante. Ut tincidunt, tortor id venenatis hendrerit, est arcu congue risus, sit amet consequat ipsum ligula in massa. Phasellus ultricies velit quis volutpat egestas. Praesent lectus ex, tincidunt sed aliquet eu, tristique sed justo. Aenean finibus cursus arcu at hendrerit. In mauris nisi, ultricies sed accumsan vel, suscipit vitae ligula. Nulla nec scelerisque elit. Sed et quam sit amet lorem faucibus porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec consectetur turpis sed porta viverra. Aenean tristique laoreet mi et semper. Nam eu lorem eu ante sollicitudin finibus. Morbi non erat gravida, consequat metus a, molestie justo.</p>
+            <p>I am a full-stack web developer and retired professional football player that enjoys creating innovative web pages that provides a pleasant user experience. I have a passion for technology and love seeing technological trends evolve to meet the ever changing needs of society. I graduated from Lehigh University with a degree in product design. I have eight years of experience of completing designated tasks at a high level in a team environment. I am an avid problem solver that thrives in high pressure situations.
+                </p>
         </div>
     </div>
 
     <!--Contact Section-->
-    <footer class="page-footer font-small bg-dark" id="footer">
-        <div class="row  text-light p-5">
-            <div class="col-4">
-                <h5>CONTACT</h5>
-                <p>Email: willrackley65@gmail.com</p>
-                <p>Cell: 404-984-1096</p>
-                <p><small>© 2019 Copyright</small></p>
+    <footer class="page-footer font-small" id="footer">
+        <div class="container">
+            <div class="row  text-light pt-5 pb-3">
+                <div class="col-4">
+                    <h5>CONTACT</h5>
+                    <p><i class="far fa-envelope"></i>  &nbspwillrackley65@gmail.com</p>
+                    <p><i class="fas fa-mobile-alt"></i> &nbsp404-984-1096</p>
+                </div>
+                <div class="col-4">
+                    
+                </div>
+                <div class="col-4 text-right socialLinks">
+                    <a href="www.linkedin.com/in/willrackley" target="_blank" class="text-muted"><i id='linkedin' class="fab fa-linkedin mr-2"></i></a> <a href="https://www.instagram.com/willrackleyiii/" target="_blank" class="text-muted"><i class="fab fa-instagram mr-2"></i></a> <a href="https://www.facebook.com/willrackley" target="_blank" class="text-muted"><i class="fab fa-facebook"></i></a>
+                </div>
             </div>
-            <div class="col-4">
-                
+            <div class="row  text-muted text-center border-top">
+                <div class="col">
+                    <p><small>© 2019 Copyright</small></p>
+                </div>
             </div>
         </div>
     </footer>

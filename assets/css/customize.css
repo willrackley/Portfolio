@@ -9,6 +9,7 @@ nav{
 
 nav h3{
     color: #E8A87C; 
+   
 }
 .navbar-brand{
     font-family: 'Major Mono Display', monospace;
@@ -28,8 +29,9 @@ nav h3{
     position: relative;
 }
 
-.jumbotron{
-    font-family: 'Major Mono Display', monospace;
+.jumbotron {
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 1.2px;
 }
 
 .jbText{
@@ -61,14 +63,39 @@ nav h3{
     margin-top: 100px;
 }
 
+#aboutContainer p{
+    font-size: 20px;
+}
 #aboutHeader{
     padding-top: 100px;
 }
 
-#footer .row{
+#footer {
     background: #0a0a0a;
-    border-top: 5px solid #E8A87C;
+    border-top: 3px solid #E8A87C;
 }
+
+#footer p{
+    font-size: 14px;
+}
+
+.fas{
+    font-size: 24px;
+}
+
+.far{
+    font-size: 24px;
+}
+
+.fab{
+    font-size: 30px; 
+}
+
+.socialLinks a:hover{
+    color: #ffffff !important;
+}
+
+
 
 
 
