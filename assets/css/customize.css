@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 nav{ 
     background: #0a0a0a;
+    border-bottom: 3px solid #E8A87C; 
 }
 
 nav h3{
@@ -41,7 +46,7 @@ nav h3{
 
 .card:hover{
     background: #E8A87C; 
-    filter: drop-shadow(8px 8px 10px gray);
+    filter: drop-shadow(8px 8px 10px rgb(160, 159, 159));
 }
 
 .card img:hover{
@@ -58,6 +63,11 @@ nav h3{
 
 #aboutHeader{
     padding-top: 100px;
+}
+
+#footer .row{
+    background: #0a0a0a;
+    border-top: 5px solid #E8A87C;
 }
 
 
