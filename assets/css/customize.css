@@ -85,10 +85,6 @@ nav h3 {
     margin-top: 60px;
 }
 
-#sixthCard:hover {
-    background: white;
-    filter: drop-shadow(0 0 0  white);
-}
 
 #portSubHeading {
     font-family: 'Satisfy', cursive;
