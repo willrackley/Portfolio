@@ -7,17 +7,36 @@ html {
 nav { 
     background: #0a0a0a;
     border-bottom: 3px solid #E8A87C; 
+    
 }
 
 nav h3 {
     color: #E8A87C;   
 }
 .navbar-brand {
+    margin: -10px 0;
     font-family: 'Major Mono Display', monospace;
+}
+
+
+.nav-link {
+    transition: .4s ease;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    border-top: 4px solid #0a0a0a;
+    border-bottom: 4px solid #0a0a0a;
+    padding: 15px 0; 
+    margin: 0 5px;
 }
 
 .nav-item a:hover {
     color: #E8A87C !important; 
+    padding: 5px 0;
+    border-bottom: 3px groove #ffffff;
+    border-top: 3px groove #ffffff;
+    border-radius: 0px;
+    margin-top: 12px;
 }
 
 .fa-bars {
@@ -30,18 +49,15 @@ nav h3 {
 
 /*=======JumboTron========*/
 
-#jbImg{
+#jbImg {
     margin-top: -65px;
     margin-bottom: -65px;
     filter: brightness(55%);
 }
 
-.jumbotron{
+.jumbotron {
     position: relative;
     overflow: hidden;
-}
-
-.jumbotron {
     font-family: 'Satisfy', cursive;
     letter-spacing: 1.2px;
 }
@@ -58,10 +74,14 @@ nav h3 {
     background: #E8A87C;
     color: #ffffff;
     font-size: 30px;
+    transition: .4s ease;
+}
+
+.badge:hover {
+    font-size: 32px;
 }
 
 .jbText a:hover{
-    font-size: 32px;
     color: #ffffff;
 }
 
@@ -91,6 +111,14 @@ nav h3 {
     font-weight: bold;
     font-size: 24px;
     letter-spacing: 1.2px;
+}
+
+.card {
+    transition: .4s ease;
+}
+
+.card-body small {
+    transition: .4s ease;
 }
 
 .card:hover {
