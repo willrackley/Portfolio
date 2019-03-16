@@ -5,14 +5,15 @@ html {
 /*=======NAV========*/
 
 nav { 
-    background: #0a0a0a;
+    background: #ffffff;
     border-bottom: 3px solid #E8A87C; 
     
 }
 
 nav h3 {
-    color: #E8A87C;   
+    color: #333333;   
 }
+
 .navbar-brand {
     margin: -10px 0;
     font-family: 'Major Mono Display', monospace;
@@ -24,17 +25,17 @@ nav h3 {
     color: #ffffff;
     font-size: 16px;
     text-decoration: none;
-    border-top: 4px solid #0a0a0a;
-    border-bottom: 4px solid #0a0a0a;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
     padding: 15px 0; 
     margin: 0 5px;
 }
 
 .nav-item a:hover {
-    color: #E8A87C !important; 
+    color: #333333 !important; 
     padding: 5px 0;
-    border-bottom: 3px groove #ffffff;
-    border-top: 3px groove #ffffff;
+    border-bottom: 3px groove #E8A87C;
+    border-top: 3px groove #E8A87C;
     border-radius: 0px;
     margin-top: 12px;
 }
