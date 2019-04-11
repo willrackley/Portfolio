@@ -118,6 +118,10 @@ nav h3 {
     margin-top: 60px;
 }
 
+#seventhRow {
+    margin-top: 60px;
+}
+
 #blankCard:hover {
     background: #ffffff;
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
