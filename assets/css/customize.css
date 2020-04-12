@@ -102,12 +102,12 @@ nav h3 {
     margin-top: 60px;
 }
 
-.blankCard:hover {
+#blankCard:hover {
     background: none !important;
 }
 
-.blankCard {
-    border: none;
+#blankCard {
+    border: none !important;
 }
 
 #portSubHeading {
